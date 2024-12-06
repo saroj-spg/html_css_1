@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: aliceblue;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            width: 100%;
+            padding: 10px 0;
+            height:500px;
+            background-color: aliceblue;
+            margin: 10px 0;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+           
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .contact-button {
+            color: white;
+            text-decoration: none;
+            border: 2px solid white;
+            border-radius: 20px;
+            background-color:#00bcd4;
+            padding:5px 25px;
+        }
+
+        .contact-button:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .navbar1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            color: white;
+            height: 60px;
+            padding: 0 20px;
+            margin-bottom: 10px;
+        }
+        .navbar1 .logo {
+            
+            font-size: 18px;
+        }
+        .navbar1 ul  {
+            justify-content: center;
+            gap:30px;
+            
+        }
+        
+
+        .navbar2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            background-color: black;
+            color: white;
+            height: 60px;
+            padding: 0 20px;
+            margin-bottom: 10px;
+        }
+        .navbar2 ul {
+            
+            justify-content: flex-start;
+            gap:20px;
+        }
+        
+        
+        .navbar2 .logo{
+            margin:10px;
+            
+        }
+        .navbar2 .contact-button{
+            position:relative;
+            right:400px;
+        background-color: red;      
+      }
+
+        .navbar3 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            color: white;
+            height: 60px;
+            padding: 0 20px;
+            margin-bottom: 10px;
+        }
+        .navbar3 .logo {
+           margin:10px;
+           
+        }
+        .navbar3 ul {
+           gap:30px;
+            justify-content: flex-end;
+        }
+
+        .logo {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+  
+        <nav class="navbar1">
+            <div class="logo">LOGOBAKERY</div>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <a href="#" class="contact-button">Contact us</a>
+        </nav>
+  
+        
+        <nav class="navbar2">
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+           
+            <a href="#" class="contact-button">Contact us</a>
+            <div class="logo">LOGOBAKERY</div>
+        </nav>
+
+        
+        <nav class="navbar3">
+            <div class="logo">LOGOBAKERY</div>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <a href="#" class="contact-button">Contact us</a>
+        </nav>
+    </div>
+</body>
+</html>

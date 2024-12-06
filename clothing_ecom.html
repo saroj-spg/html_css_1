@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+
+    body{
+        width:100%;
+      height: auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height:60px;
+    
+       
+    }
+    .header .logo{
+        margin-left: 30px;
+        position:relative;
+        top: 15px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .header nav{
+        width:100%;
+        display:flex;
+    }
+    
+    .header nav ul{
+            list-style: none;
+          
+            display:flex;
+            position: relative;
+            flex-direction: row;
+            position:relative;
+       
+            left:130px;
+
+       
+    }
+    .header nav  i{
+        position: relative;
+        left:200px;
+
+        padding: 20px;
+    }
+    .header nav ul li{
+      margin:15px;              
+
+       
+    } 
+    
+    .header nav  ul li a{
+        text-decoration: none;
+        color:black !important;
+        margin:0px 10px;
+        color:gray;
+    
+    }
+    .hero{
+        text-align: center;
+        padding:50px 30px;
+        width: 100%;
+        height: 500px;
+        background-color: aquamarine;
+
+    }
+    .hero h1{
+        font-size: 2rem !important;
+    }
+    .hero img{
+        width:500px;
+        position:relative;
+        left:10px;
+        height:300px;
+        display: inline-block;
+        border-radius:10px;
+        position:relative !important;
+        right:500px;
+        mix-blend-mode: multiply !important;
+        border: none !important;
+        
+    }
+    .features{
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    justify-content: space-around;
+    }
+    .features .feature{
+    height: 100px;
+    width: 400px;
+    margin:20px;
+    
+    text-align: center;
+    }
+    .block-section .blog img{
+        width:300px;
+         height:300px;
+    }
+    .new-arrivals{
+        padding:40px 20px;
+        text-align:center;
+     
+
+    }
+    .new-arrivals h2{
+        font-size: 24px;
+        margin-bottom: 10px;
+      
+
+    }
+    .arrivals {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        gap:20px;
+    }
+    .item{
+        width:18%;
+        padding:10px;
+        border:1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .item img{
+        width:100%;
+       
+    }
+    
+    
+
+.blog-section{
+    padding:20px 40px;;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.blogs{
+    display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        gap:20px;
+        
+  
+}
+.blog{
+    width:30%;
+    padding:20px;
+     border:1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+
+}
+.blog img{
+    width:100%;
+    height:auto;
+}
+ .blog p{
+  margin:20px;
+ 
+    width:300px;
+}
+.footer-section{
+    justify-content: space-around;
+    padding:10px;
+    background-color: bisque;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;     
+
+}
+.footer-col1{
+    width:20%;
+    padding:20px;
+    text-align: center;
+}
+ ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+    
+</style>
+<body>
+<header class="header">
+    <div class="logo">FLone</div>
+    <nav>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        
+       
+    </ul>
+    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-regular fa-heart"></i></a>
+        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+
+    </nav>
+</header>
+<section class="hero">
+        <h1>Stylish Male Clothes</h1>
+        <p>30%off summerVaccation</p><pre>
+                        
+            
+            <button style="background-color:gray ; color:white; padding: 5px 15px;">Shop Now</button> 
+        </pre>
+        <img src="https://www.shutterstock.com/image-photo/weekend-digital-fun-happy-indian-260nw-2316351005.jpg">
+</section>
+<div class="features">
+            <div class="feature">
+                <i class="fa-sharp fa-regular fa-truck-fast"></i>
+                <h3>free shipping</h3>
+                <p>Enjoy free delivery on all orders</p>
+            </div>
+        <div class="feature">
+            <i class="fa-solid fa-phone-volume"></i>
+            <h3>24/7 Support</h3>
+            <p>We are here to help anytime you need.</p>
+        </div>
+    <div class="feature">
+        <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+        <h3>Money Return</h3>
+        <p>30 days money back gurantee</p>
+    </div>
+</div>
+
+    <div class="new-arrivals">
+   
+        <h2>New Arrivals</h2>
+        <p>we have varietyy of items</p>
+                <div class="arrivals">
+                    <div class="item">
+                        <img src="images/belt.jpg" width="200px" height="200px">
+                        <h3>Tshirt and jeans</h3>
+                        <p>$50</p>
+                    </div>
+                    <div class="item">
+                        
+                        <img src="images/watch.jpg" width="200px" height="200px">
+                        <h3>Tshirt and jeans</h3>
+                        <p>$50</p>
+
+                    </div>
+                    <div class="item">
+                        <img src="images/tshirt.jpg" width="200px" height="200px">
+                        <h3>Tshirt and jeans</h3>
+                        <p>$50</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/bag.jpg" width="200px" height="200px">
+                        <h3>Tshirt and jeans</h3>
+                        <p>$50</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/glass.jpg" width="200px" height="200px">
+                        <h3>Tshirt and jeans</h3>
+                        <p>$50</p>
+                    </div>
+        
+
+
+        
+                    <div class="item">
+                        <img src="images/hat.jpg" height="200px" width="200px" >
+                        <h3>Tshirt and jeans</h3>
+                        <p>$50</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/shoes.jpg" height="200px" width="200px">
+                        <h3>Tshirt and jeans</h3>
+                        <p>$50</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/pant.jpg" height="200px" width="200px">
+                        <h3>Tshirt and jeans</h3>
+                        <p>$50</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/headphone.jpg" height="200px" width="200px" >
+                        <h3>Tshirt and jeans</h3>
+                        <p>$50</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/sportshoes.jpg" height="200px" width="200px">
+                        <h3>Tshirt and jeans</h3>
+                        <p>$50</p>
+
+                    </div>
+             </div>  
+    </div>
+
+
+
+<div class="block-section">
+    <h2 style="text-align: center;">Our Blog</h2>
+    <div class="blogs">
+    <div class="blog">
+        <img src="images/blog1.jpg"  >
+        <h3>title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis harum quo delectus autem ea pariatur aspernatur, nisi fugit, a fuga ex quam neque labore corporis dignissimos, nihil praesentium consequuntur! Ab?</p>
+    </div>
+    <div class="blog">
+        <img src="images/blog2.jpg"  >
+        <h3>title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis harum quo delectus autem ea pariatur aspernatur, nisi fugit, a fuga ex quam neque labore corporis dignissimos, nihil praesentium consequuntur! Ab?</p>
+    </div>
+    <div class="blog">
+        <img src="images/blog3.jpg"  >
+        <h3>title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis harum quo delectus autem ea pariatur aspernatur, nisi fugit, a fuga ex quam neque labore corporis dignissimos, nihil praesentium consequuntur! Ab?</p>
+    </div>
+</div>
+</div>
+<footer class="footer-section">
+    <div class="footer">
+    <div class="footer-col">
+        <h3>Flone</h3>
+        <p>&copy;2024<br>All rights reserved</p>
+    </div>
+    <div class="footer-col">
+        <h3>About us</h3>
+        <ul>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Store Locations</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Orders Tracking</a></li>
+    </ul>
+    </div>
+    <div class="footer-col">
+        <h3>USEFUL LINKS</h3>
+        <ul>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Support policy</a></li>
+        <li><a href="#">Guides</a></li>
+        <li><a href="#">FAQS</a></li>
+    </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Follow us</h3>
+        <ul>
+        <li><a href="#">Facebbok</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Youtube</a></li>
+    </ul>
+    </div>
+    <div class="footer-col">
+        <h3>SUBSCRIBE</h3>
+        <p>Get E-mail updates about our latest shop and special offers.</p>
+        <input type="enter your email here" placeholder="enter your email here">
+        
+        
+        <a href="#"><h3>Subscribe</h3></a>
+    </ul>
+    </div>
+</div>
+</footer>
+
+</body>
+</html>
